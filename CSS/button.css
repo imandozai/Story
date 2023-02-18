@@ -1,0 +1,17 @@
+.element {
+    padding: 2rem 4rem;
+    border: 2px solid gray;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.element.yay {
+    background: pink;
+    border-color: red;
+    color: red;
+    font-weight: bold;
+}
+
+.element.yay::after {
+    content: "!!!";
+}
